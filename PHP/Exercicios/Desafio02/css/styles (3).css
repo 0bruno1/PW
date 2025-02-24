@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    box-sizing: 0;
+}
+.php{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.php .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(190, 190, 190);
+}
+.php .container .magreza{
+    background-image: url(./images/magreza.png);
+}
