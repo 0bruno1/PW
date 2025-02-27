@@ -23,9 +23,33 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 
-.php .container img{
+.php .container .magreza{
     position: relative;
     left: -320px;
     top: -30px;
 }
-
+.php .container .normal{
+    position: relative;
+    left: -320px;
+    top: -30px;
+}
+.php .container .sobrepeso{
+    position: relative;
+    left: -320px;
+    top: -30px;
+}
+.php .container .obesidade1{
+    position: relative;
+    left: -320px;
+    top: -30px;
+}
+.php .container .obesidade2{
+    position: relative;
+    left: -320px;
+    top: -30px;
+}
+.php .container .obesidade3{
+    position: relative;
+    left: -320px;
+    top: -30px;
+}
