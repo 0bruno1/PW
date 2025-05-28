@@ -1,0 +1,84 @@
+header {
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 0px 0;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  height: 150px;
+}
+
+h1{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 0 0 px;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.menu nav {
+  display: flex;
+  gap: 30px;
+}
+
+.menu nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+  position: relative;
+}
+
+.menu nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #00bcd4;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s;
+}
+
+.menu nav a:hover {
+  color: #00bcd4;
+}
+
+.menu nav a:hover::after {
+  width: 100%;
+}
+
+
+.sociais {
+  display: flex;
+  gap: 10px;
+}
+
+.sociais button {
+  background-color: transparent;
+  border: 1px solid #00bcd4;
+  color: #00bcd4;
+  border-radius: 4px;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 18px;
+}
+
+.sociais button:hover {
+  background-color: #00bcd4;
+  color: #fff;
+}
