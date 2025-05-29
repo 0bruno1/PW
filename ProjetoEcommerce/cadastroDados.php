@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dados Cadastrados</title>
-    <link rel="stylesheet" href="css/header1.css">
     <link rel="stylesheet" href="css/cadastroDados.css">
-    <script src="https://kit.fontawesome.com/69a72fc2bd.js" crossorigin="anonymous"></script>
 <body>
     <?php include 'header1.php'?>
     <div class="interfaceDados">
@@ -26,5 +24,6 @@
             ?>
         </div>
     </div>
+    <?php include 'footer.php'?>
 </body>
 </html>
