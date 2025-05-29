@@ -1,0 +1,58 @@
+body {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../assets/fundoestrela.gif"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.containerTabela {
+  padding: 40px;
+  text-align: center;
+}
+
+.TituloRequisitos {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-shadow: 0 0 5px #000000;
+}
+
+.seçãoTabelaRequisitos {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 90%;
+  max-width: 800px;
+  border-collapse: collapse;
+  background-color: #111; 
+  color: #fff;            
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table thead {
+  background-color: #222; 
+}
+
+table th,
+table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+table tbody tr:hover {
+  background-color: #1c1c1c; 
+}
+
+table th {
+  color: #ffffff; 
+  text-transform: uppercase;
+  font-weight: bold;
+}
