@@ -1,28 +1,25 @@
-
-    <header>
-        <div class="container">
-            <div class="logo"><img src="assets/placeholder.png" alt="" width="230" height="130"></div>
-            <div class="menu">
-                <nav>
-                    <a href="formulario.php">CADASTRO</a>
-                    <a href="index.php">
-                        HOME
-                    </a>
-                    <a href="produto.php">
-                        PRODUTO
-                    </a>
-                    <a href="cliente.php">
-                        CLIENTE
-                    </a>
-                    <a href="#">
-                        CONTATO
-                    </a>
-                </nav>
-            </div>
-            <div class="sociais">
-                <button><i class="fa-brands fa-instagram"></i></button>
-                <button><i class="fa-brands fa-youtube"></i></button>
-                <button><i class="fa-brands fa-x-twitter"></i></button>
-            </div>
+<link rel="stylesheet" href="css/header1.css">
+<header>
+    <div class="nav">
+        <div class="logo">
+            <img src="assets/logogalaxy.png">
         </div>
-    </header>
+        <nav>
+            <ul>
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="formulario.php">CADASTRE-SE</a></li>
+                <li>PC</li>
+                <li>CONSOLES</li>
+                <li>MOBILE</li>
+            </ul>
+        </nav>
+        <form class="search-form" action="search.php" method="GET">
+                <input type="text" name="q" placeholder="Buscar...">
+                <button type="submit">🔍</button>
+        </form>
+        <div class="actions">
+            <button class="cart">🛒</button>
+            <button class="login">Entrar</button>
+        </div>
+    </div>
+</header>
