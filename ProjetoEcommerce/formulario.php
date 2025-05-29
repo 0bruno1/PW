@@ -34,5 +34,6 @@
             <input type="submit" value="Cadastrar">
         </form>
     </div>
+    <?php include 'footer.php'?>
 </body>
 </html>
